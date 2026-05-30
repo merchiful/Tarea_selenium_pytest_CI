@@ -41,7 +41,7 @@ def test_inicio_sesion():
         )
 
         password.send_keys(
-            "SuperSecretPassword!"
+            "SuperSecretPassword!s"
         )
 
         boton = driver.find_element(
